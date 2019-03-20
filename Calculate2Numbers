@@ -19,12 +19,12 @@ namespace Calculate2Numbers
             int num2 = int.Parse(Console.ReadLine());
 
             Console.WriteLine();
-            Console.WriteLine("SUM = " + (num1 + num2));
-            Console.WriteLine("SUB = " + (num1 - num2));
-            Console.WriteLine("MUL = " + (num1 * num2));
-            Console.WriteLine("DIV = " + (num1 / num2));
-            Console.WriteLine("SQ1 = {0} \tSQ2 = {1}", (Math.Pow(num1, 2)), (Math.Pow(num2, 2)));
-            Console.WriteLine("SQR1 = {0} \tSQR2 = {1}", (Math.Sqrt(num1)), (Math.Sqrt(num2)));
+            Console.WriteLine("SUM = " + $"{(num1 + num2):0.00}");
+            Console.WriteLine("SUB = " + $"{(num1 - num2):0.00}");
+            Console.WriteLine("MUL = " + $"{(num1 * num2):0.00}");
+            Console.WriteLine("DIV = " + $"{(num1 / num2):0.00}");
+            Console.WriteLine("SQ1 = {0} \tSQ2 = {1}" , $"{(Math.Pow(num1, 2)):0.00}", $"{(Math.Pow(num2, 2)):0.00}");
+            Console.WriteLine("SQR1 = {0} \tSQR2 = {1}" , $"{(Math.Sqrt(num1)):0.00}", $"{(Math.Sqrt(num2)):0.00}");
 
             Console.WriteLine("\n======================");
             Console.WriteLine("Press any key to exit.");
