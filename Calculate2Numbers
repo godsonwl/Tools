@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Calculate2Numbers
+{
+    class Calculator
+    {
+        static void Main()
+        {
+            Console.WriteLine();
+            Console.WriteLine("-------------------------------------------\n");
+
+            Console.WriteLine("Hi, please enter the 1st number:");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Hi, please enter the 2nd number:");
+            int num2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine();
+            Console.WriteLine("SUM = " + (num1 + num2));
+            Console.WriteLine("SUB = " + (num1 - num2));
+            Console.WriteLine("MUL = " + (num1 * num2));
+            Console.WriteLine("DIV = " + (num1 / num2));
+            Console.WriteLine("SQ1 = {0} \tSQ2 = {1}", (Math.Pow(num1, 2)), (Math.Pow(num2, 2)));
+            Console.WriteLine("SQR1 = {0} \tSQR2 = {1}", (Math.Sqrt(num1)), (Math.Sqrt(num2)));
+
+            Console.WriteLine("\n======================");
+            Console.WriteLine("Press any key to exit.");
+            Console.WriteLine("======================");
+            Console.ReadKey();
+        }
+    }
+}
