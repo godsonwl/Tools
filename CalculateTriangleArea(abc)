@@ -31,7 +31,9 @@ namespace PB10TriangleArea
             }
             Console.WriteLine("The area is: " + area);
 
+            Console.WriteLine("\n======================");
             Console.WriteLine("Press any key to exit.");
+            Console.WriteLine("======================");
             Console.ReadKey();
         }
     }
