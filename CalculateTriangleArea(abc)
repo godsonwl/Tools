@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PB10TriangleArea
+namespace TriangleArea
 {
-    class ifelse
+    class AreaCalculator
     {
         static void Main(string[] args)
         {
