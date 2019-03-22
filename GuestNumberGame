@@ -1,12 +1,12 @@
 using System;
 
-namespace P1Lucky88
+namespace GuestNumber
 {
-    class While
+    class Game
     {
         static void Main()
         {
-            Console.WriteLine();
+            Console.WriteLine("To guest the number between 1 and 100");
             Console.WriteLine("-------------------------------------------\n");
 
             Repeat:
