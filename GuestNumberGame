@@ -1,0 +1,56 @@
+using System;
+
+namespace P1Lucky88
+{
+    class While
+    {
+        static void Main()
+        {
+            Console.WriteLine();
+            Console.WriteLine("-------------------------------------------\n");
+
+            Repeat:
+            Console.WriteLine("Please enter a number between 1 and 100: ");
+            int G = int.Parse(Console.ReadLine());
+            Console.WriteLine("\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n");
+
+            Console.WriteLine("Hi, please guest the number: ");
+            int num = int.Parse(Console.ReadLine());
+
+
+            while (num != G)
+            {
+                if (num < G)
+                {
+                    Console.WriteLine("Now, the number is between {0} and 100!", num);
+                    Console.WriteLine("Your turn to guest the number: ");
+                    num = int.Parse(Console.ReadLine());
+                }
+                else if (num > G)
+                {
+                    Console.WriteLine("Now, the number is between 1 and {0}!", num);
+                    Console.WriteLine("Your turn to guest the number: ");
+                    num = int.Parse(Console.ReadLine());
+                }
+            }
+            Console.WriteLine("Lucky you...the number is {0}!", G);
+
+            Console.WriteLine();
+            Console.WriteLine("Play one more time? Y/N");
+            Console.WriteLine();
+            
+            string P = Console.ReadLine();
+            if (P == "y" || P == "Y" || P == "yes" || P == "Yes")
+            {
+                goto Repeat;
+            }
+            else
+                Console.WriteLine("Bye bye!");
+
+            Console.WriteLine("\n======================");
+            Console.WriteLine("Press any key to exit.");
+            Console.WriteLine("======================");
+            Console.ReadKey();
+        }
+    }
+}
