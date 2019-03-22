@@ -1,8 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TriangleArea
 {
@@ -10,7 +6,7 @@ namespace TriangleArea
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("To calculate TriangleArea by a/b/c");
+            Console.WriteLine("To calculate TriangleArea by length of a/b/c");
             Console.WriteLine("-------------------------------------------\n");
         
             Console.WriteLine("Hi, please enter the length of a:");
