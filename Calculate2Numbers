@@ -1,8 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculate2Numbers
 {
@@ -10,7 +6,7 @@ namespace Calculate2Numbers
     {
         static void Main()
         {
-            Console.WriteLine(To calculate SUM/SUB/MUL/DIV/SQ/SQR in 0.00);
+            Console.WriteLine("To calculate SUM / SUB / MUL / DIV / SQ / SQR in 0.00");
             Console.WriteLine("-------------------------------------------\n");
 
             Console.WriteLine("Hi, please enter the 1st number:");
