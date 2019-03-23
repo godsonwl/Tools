@@ -1,6 +1,6 @@
 using System;
 
-namespace GuestNumber
+namespace GuessNumber
 {
     class Game
     {
